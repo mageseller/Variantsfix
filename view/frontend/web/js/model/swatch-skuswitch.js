@@ -35,14 +35,18 @@ define([
                 var products = this._CalcProducts();
                 simpleSku = this.options.jsonConfig.skus[products.slice().shift()];
                 simpleName = this.options.jsonConfig.names[products.slice().shift()];
-                simpleDescription = this.options.jsonConfig.descriptions[products.slice().shift()];
-                simpleShortDescription = this.options.jsonConfig.short_descriptions[products.slice().shift()];
+                if(this.options.jsonConfig.descriptions[products.slice().shift()].length > 0){
+                    simpleDescription = this.options.jsonConfig.descriptions[products.slice().shift()];
+                }
+                if(this.options.jsonConfig.short_descriptions[products.slice().shift()].length > 0){
+                    simpleShortDescription = this.options.jsonConfig.short_descriptions[products.slice().shift()];
+                }
             }
-            
+
             $('div.product-info-main .sku .value').html(simpleSku);
             $('.page-title [itemprop="name"]').html(simpleName);
-            $('.product.attribute.description .value').html(simpleDescription);   
-            $('[itemprop="description"]').html(simpleShortDescription);   
+            $('.product.attribute.description .value').html(simpleDescription);
+            $('[itemprop="description"]').html(simpleShortDescription);
             return original();
         });
 
