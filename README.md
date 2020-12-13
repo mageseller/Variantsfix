@@ -24,8 +24,8 @@ If you encounter any problems or bugs, please <a href="https://github.com/magese
 
 # Frontend
 
-<img src="https://raw.githubusercontent.com/mageseller/all-module-screenshots/main/Variantsfix/screenshot_1.png" height="800"/>
+<img src="https://raw.githubusercontent.com/mageseller/Variantsfix/main/Screenshot//screenshot_1.png" height="800"/>
 
 # Configurable Swatches 
-<img src="https://raw.githubusercontent.com/mageseller/all-module-screenshots/main/Variantsfix/screenshot_2.png" height="800"/>
+<img src="https://raw.githubusercontent.com/mageseller/Variantsfix/main/Screenshot//screenshot_2.png" height="800"/>
 
