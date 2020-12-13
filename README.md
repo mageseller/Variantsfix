@@ -5,7 +5,7 @@ Also it gives feature in which SKU ,Name,Description and Short description will 
 
 # Installation Instruction
 
-* Copy the content of the repo to the Magento 2 app/code/Mageprince/Faq
+* Copy the content of the repo to the Magento 2 app/code/Mageseller/Variantsfix
 * Run command:
   <b>php bin/magento setup:upgrade</b>
 * Run Command:
